@@ -227,6 +227,13 @@ body {
   margin-right: 30px;
 }
 
+.principles .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  outline: 1px solid tomato;
+}
+
 .principles .item:last-child {
   margin-right: 0px;
 }
