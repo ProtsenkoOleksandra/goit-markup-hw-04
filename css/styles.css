@@ -378,12 +378,10 @@ body {
   fill: currentColor;
 }
 
-.smm-icon:hover {
-  fill: var(--white-text-color);
-}
-
-.icon:hover {
+.icon-list .icon:hover,
+.icon-list .icon:focus {
   background-color: var(--acent-text-color);
+  color: var(--white-text-color);
 }
 
 .worker .member {
