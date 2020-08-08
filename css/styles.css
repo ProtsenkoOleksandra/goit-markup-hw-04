@@ -141,6 +141,15 @@ body {
   margin-right: 30px;
 }
 
+.sprite-envelope {
+  width: 16px;
+  height: 12px;
+}
+.sprite-smartphone {
+  width: 10px;
+  height: 16px;
+}
+
 /*Buttons*/
 
 .button {
