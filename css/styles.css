@@ -144,10 +144,20 @@ body {
 .sprite-envelope {
   width: 16px;
   height: 12px;
+  fill: var(--primary-text-color);
 }
+
 .sprite-smartphone {
   width: 10px;
   height: 16px;
+  fill: var(--primary-text-color);
+}
+
+.sprite-envelope:hover,
+.sprite-envelope:focus,
+.sprite-smartphone:hover,
+.sprite-smartphone:focus {
+  fill: var(--acent-text-color);
 }
 
 /*Buttons*/
