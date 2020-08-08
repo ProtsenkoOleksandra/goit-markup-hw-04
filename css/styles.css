@@ -18,6 +18,7 @@ html {
   --grey-back-color: #f5f4fa;
   --grey-border-color: #eeeeee;
   --grey-border-color-partners: #afb1b8;
+  --grey-hero-background-color: #c4c4c4;
 }
 
 /* CLASSES UTILITIES AND UNIVERSAL*/
@@ -183,6 +184,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: var(--grey-hero-background-color);
 }
 
 .hero {
