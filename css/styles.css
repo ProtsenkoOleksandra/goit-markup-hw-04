@@ -143,15 +143,19 @@ body {
 }
 
 .sprite-envelope {
+  margin-right: 10px;
+
   width: 16px;
   height: 12px;
-  margin-right: 10px;
+  fill: currentColor;
 }
 
 .sprite-smartphone {
+  margin-right: 10px;
+
   width: 10px;
   height: 16px;
-  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*Buttons*/
