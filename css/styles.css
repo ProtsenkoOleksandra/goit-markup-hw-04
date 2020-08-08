@@ -19,6 +19,7 @@ html {
   --grey-border-color: #eeeeee;
   --grey-border-color-partners: #afb1b8;
   --grey-hero-background-color: #c4c4c4;
+  --grey-dark-circle-for-icon: rgba(255, 255, 255, 0.1);
 }
 
 /* CLASSES UTILITIES AND UNIVERSAL*/
@@ -513,6 +514,24 @@ body {
 
 .basement {
   margin-right: 70px;
+}
+
+.icon-footer {
+  display: block;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  color: var(--white-text-color);
+  background-color: var(--grey-dark-circle-for-icon);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-list .icon-footer:hover,
+.icon-list .icon-footer:focus {
+  background-color: var(--acent-text-color);
 }
 
 /*PORTFOLIO PAGE CSS*/
