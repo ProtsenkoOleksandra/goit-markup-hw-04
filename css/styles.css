@@ -217,7 +217,7 @@ body {
   margin-bottom: 30px;
 
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -425,15 +425,25 @@ body {
   justify-content: center;
 }
 
-.smm-link {
-  display: flex;
+.partner-link {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 
   width: 170px;
   height: 90px;
   border: 1px solid var(--grey-border-color-partners);
+  color: var(--grey-border-color-partners);
   border-radius: 4px;
+}
+
+.sprite-client {
+  fill: currentColor;
+}
+
+.partner-link:hover {
+  color: var(--acent-text-color);
+  border-color: var(--acent-text-color);
 }
 
 .partner:not(:last-child) {
