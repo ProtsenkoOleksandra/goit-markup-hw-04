@@ -117,7 +117,8 @@ body {
 }
 
 .contacts {
-  display: block;
+  display: flex;
+  align-items: center;
 
   color: var(--primary-text-color);
   font-weight: 500;
