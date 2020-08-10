@@ -53,7 +53,7 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 body {
@@ -96,10 +96,6 @@ body {
   align-items: center;
 }
 
-.site-nav li {
-  outline: 1px solid red;
-}
-
 .site-menu:not(:last-child) {
   margin-right: 50px;
 }
@@ -112,7 +108,7 @@ body {
 
 .menu-contacts {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .adress-top {
@@ -183,7 +179,6 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 40%),
@@ -212,8 +207,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  outline: 2px solid tomato;
 }
 
 /* WORK PRINCIPLES */
@@ -429,7 +422,8 @@ body {
   fill: currentColor;
 }
 
-.partner-link:hover {
+.partner-link:hover,
+.partner-link:focus {
   color: var(--acent-text-color);
   border-color: var(--acent-text-color);
 }
